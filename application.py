@@ -1,6 +1,4 @@
 from flask import Flask, render_template, request
-import os
-from collections import Counter
 from sklearn.naive_bayes import MultinomialNB
 import cPickle as c
 
